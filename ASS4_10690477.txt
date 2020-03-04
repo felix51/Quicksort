@@ -1,0 +1,19 @@
+QUESTION 1
+a)Best Case is when the pivot element divides the list into two equal halves by coming exactly in the middle position.
+
+
+b)Worst Case is when the list is either arranged in ascending or descending order.
+
+QUESTION 2
+a) For the worst case time complexity increases to O(n^2).
+When quicksort always has the most unbalanced partitions possible, then the original call takes cn time for some constant c, the recursive call on n-1, elements takes c(n-2) time, and so on. 
+
+
+ Normally for best cases it’s time complexity is O(nlogn).
+Quicksort's best case occurs when the partitions are as evenly balanced as possible , their sizes either are equal or are within 1 of each other. The former case occurs if the subarray has an 
+odd number of elements and the pivot is right in the middle after partitioning, and each partition has (n-1)/2 elements. The latter case occurs if the subarray has an even number n of elements 
+and one partition has n/2 elements with the other having n/2-1. In either of these cases, each partition has at most n/2 elements.
+
+
+
+
